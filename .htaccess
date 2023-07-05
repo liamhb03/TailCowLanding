@@ -3,7 +3,7 @@ Options -MultiViews
 RewriteBase /
 
 # For root and inspect
-RewriteRule ^(|inspect)$ inspectlanding.html [L]
+RewriteRule ^(|inspect)$ index.html [L]
 
 # For color
 RewriteRule ^color$ colorlanding.html [L]
